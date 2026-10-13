@@ -84,6 +84,7 @@ function PatternServiceForm({
                 boxShadow: `0px 2px 4px -1px "#677E88"`,
                 background: `${theme.palette.mode === 'dark' ? '#202020' : '#647881'}`,
                 position: 'sticky',
+                /* Keep the dropdown above the input label (z-index: 1). */
                 zIndex: '2',
               }}
             >
